@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="card">
+
+        <div class="card-body">
+            <h1 class="card-body-header">Exchange Api</h1>
+
+            <div class="local-area">
+                
+            <input type="number" name="amount" id="amount" class="amount" placeholder="Miktar Giriniz..">
+
+            <div class="selects">
+                <select id="first-selector">
+                    <option selected>USD</option>
+                    <option>EUR</option>
+                    <option>JPY</option>
+                    <option>BGN</option>
+                    <option>CZK</option>
+                    <option>DKK</option>
+                    <option>GBP</option>
+                    <option>HUF</option>
+                    <option>PLN</option>
+                    <option>RON</option>
+                    <option>SEK</option>
+                    <option>CHF</option>
+                    <option>ISK</option>
+                    <option>NOK</option>
+                    <option>HRK</option>
+                    <option>RUB</option>
+                    <option>TRY</option>
+                    <option>AUD</option>
+                    <option>BRL</option>
+                    <option>CAD</option>
+                    <option>CNY</option>
+                    <option>HKD</option>
+                    <option>IDR</option>
+                    <option>ILS</option>
+                    <option>INR</option>
+                    <option>KNW</option>
+                    <option>MXN</option>
+                    <option>MYR</option>
+                    <option>NZD</option>
+                    <option>PHP</option>
+                    <option>SGD</option>
+                    <option>THB</option>
+                    <option>ZAR</option>
+                </select>
+                <span style="font-size: 25px; ">↔</span>
+                <select id="second-selector">
+                    <option>USD</option>
+                    <option>EUR</option>
+                    <option>JPY</option>
+                    <option>BGN</option>
+                    <option>CZK</option>
+                    <option>DKK</option>
+                    <option>GBP</option>
+                    <option>HUF</option>
+                    <option>PLN</option>
+                    <option>RON</option>
+                    <option>SEK</option>
+                    <option>CHF</option>
+                    <option>ISK</option>
+                    <option>NOK</option>
+                    <option>HRK</option>
+                    <option>RUB</option>
+                    <option selected>TRY</option>
+                    <option>AUD</option>
+                    <option>BRL</option>
+                    <option>CAD</option>
+                    <option>CNY</option>
+                    <option>HKD</option>
+                    <option>IDR</option>
+                    <option>ILS</option>
+                    <option>INR</option>
+                    <option>KNW</option>
+                    <option>MXN</option>
+                    <option>MYR</option>
+                    <option>NZD</option>
+                    <option>PHP</option>
+                    <option>SGD</option>
+                    <option>THB</option>
+                    <option>ZAR</option>
+                </select>
+            </div>
+            
+            
+            </div>
+
+            
+
+        </div>
+
+        <!-- splice -->
+
+        <div class="card-footer">
+
+            <div class="local-container">
+
+                <div class="card-footer-header">
+                    <span class="footer-title" id="outputFirst">USD</span>
+                    <span>-</span>
+                    <span class="footer-title" id="outputSecond">TRY</span>
+                </div>
+
+                <div class="card-footer-content">
+                    <input type="text" name="outputResult" id="outputResult" placeholder="Sonuç" readonly>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<script src="ui.js"></script>
+<script src="currency.js"></script>
+<script src="app.js"></script>
+    
+
+
+
+
+</body>
+</html>
